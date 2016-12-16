@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Getting all the data from the Github API and parsing them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishiraj824/contributor-stat.git"
+  },
+  "author": "Rishi Raj",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^4.7.2",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0"
+  },
+  "bugs": {
+    "url": "https://github.com/rishiraj824/contributor-stat/issues"
+  },
+  "homepage": "https://github.com/rishiraj824/contributor-stat#readme"
+}
